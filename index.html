@@ -7,7 +7,8 @@
         <meta name="dev7hka" content="Html_Learning_Page">
         <meta charset="utf-8">
     </head>
-    <body>
+    <link rel="stylesheet" href="style.css">
+    <body style="background-color: darkseagreen; opacity: 1.0; ">
         
     <header style="text-align: center;">
         <h1>This is a Web Page Header</h1>
@@ -31,7 +32,7 @@
         
         <!--It is a comment-->
 
-        <p>Compilation Process</p>
+        <p style="font-family: 'Courier New', Courier, monospace">Compilation Process</p>
         <ul style="list-style-type: lower-greek;">
             <li>Lexical Analysis</li>
             <li>Syncatical Analysis</li>
@@ -44,7 +45,7 @@
             <li>Machine Code Generator</li>
         </ul>
 
-        <p title="I know it is not much">My Language List:</p>
+        <p title="I know it is not much" style="color:rgb(151, 3, 3)">My Language List:</p>
         <div style="margin-left: 25px;">
             <dl>
                 <dt>Python</dt><dd>High Level, interpreted Programming Language</dd><dd>My first lang.</dd><dd>Very Useful for Machine Learning</dd>
@@ -54,16 +55,32 @@
         </div>
         <input autofocus hidden type="text" dir="rtl">
 
-        <tablek>
+        <table id="firstTable">
             <tr><th id="Compiled">Compiled</th><th id="Interpreted">Interpreted</th><th id="Hybrid">Hybrid</th></tr>
             <tr><td >C</td><td>Python</td><td>Java</td></tr>
             <tr><td>C++</td><td>JavaScript</td><td>Swift</td></tr>
-
         </table>
-
-
-
-
+        <br>
+        <input type="text" autofocus style="border-radius: 5px;" size="55" spellcheck="true">
+        <pre>lorem ipsum dolor sit amet
+             dont know the rest of that
+             It should be enough to see how 'pre' tag works
+        </pre>
+        
+        <p>These two are style tag<span style="margin-left: 2em;">-></span> <b>STRONG</b>  <i>ITALIC</i></p>
+        <p>These two are semantic tag -> <strong>STRONG</strong>  <em>ITALIC</em></p>
+        <p>This text has a <sub>SUBTEXT</sub> and a <sup>SUPTEXT</sup></p>
+        <p><mark>It is a marked text</mark> <small>and here is a small text</small></p>
+        <p><del>a deleted text</del> <ins>and an inserted text</ins> <q>and here is a short quote</q></p>
+        <p>Lets see a block quote:</p>
+        <blockquote>It is a block quote my friend, DON'T forget</blockquote>
+        <abbr title="IT IS AN ABBREVIATION">abbr</abbr>
+        <address>Here is an address info<br>which is written as italic</address>
+        <cite>It is a cite. used for instance when writing the name of a table</cite>
+        <p><bdo dir="rtl"> TFEL OT THGIR MORF NETTIRW SI TI</bdo></p>
+        <p><dfn>What is this, ohh, it indicates it is a definition</dfn></p>
+        <samp>What is this, ohh, it is output of a program</samp>
+        <footer>It is a footer, info about a page</footer>
     </body>
 
 </html>
