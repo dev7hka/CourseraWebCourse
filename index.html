@@ -9,7 +9,8 @@
     </head>
     <link rel="stylesheet" href="style.css">
     <body style="background-color: darkseagreen; opacity: 1.0; ">
-        
+    <div id="body1" style="width: 800px; height: 1000px;"></div>
+    <span id="body2" style="width: 800px; height: 1000px; margin-left: 900px;"></span>      
     <header style="text-align: center;">
         <h1>This is a Web Page Header</h1>
         <p>I am giving you an introduction</p>
@@ -54,7 +55,7 @@
             </dl>
         </div>
         <input autofocus hidden type="text" dir="rtl">
-
+    
         <table id="firstTable">
             <tr><th id="Compiled">Compiled</th><th id="Interpreted">Interpreted</th><th id="Hybrid">Hybrid</th></tr>
             <tr><td >C</td><td>Python</td><td>Java</td></tr>
@@ -72,12 +73,13 @@
         <p>This text has a <sub>SUBTEXT</sub> and a <sup>SUPTEXT</sup></p>
         <p><mark>It is a marked text</mark> <small>and here is a small text</small></p>
         <p><del>a deleted text</del> <ins>and an inserted text</ins> <q>and here is a short quote</q></p>
-        <p>Lets see a block quote:</p>
+        <div id="test1"><p>Lets see a block quote:</p>
         <blockquote>It is a block quote my friend, DON'T forget</blockquote>
+        </div>
         <abbr title="IT IS AN ABBREVIATION">abbr</abbr>
         <address>Here is an address info<br>which is written as italic</address>
         <cite>It is a cite. used for instance when writing the name of a table</cite>
-        <p><bdo dir="rtl"> TFEL OT THGIR MORF NETTIRW SI TI</bdo></p>
+        <p id="rtlp"><bdo dir="rtl"> TFEL OT THGIR MORF NETTIRW SI TI</bdo></p>
         <p><dfn>What is this, ohh, it indicates it is a definition</dfn></p>
         <samp>What is this, ohh, it is output of a program</samp>
         <footer>It is a footer, info about a page</footer>

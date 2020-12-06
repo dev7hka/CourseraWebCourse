@@ -1,3 +1,13 @@
+body {
+    opacity: 0.3; /*Couldn't change opacity*/
+    background-image: url("landscape.jpg"), url("landscape.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed, scroll;
+    background-clip: padding-box, padding-box;
+    background-size: 900px 2160px, 900px 2160px; 
+    background-position: left, right;
+}
+
 #firstTable {
     border-collapse: collapse;
     background-color: coral;
@@ -8,3 +18,26 @@
     border: 3px solid red;
     padding: 30px;
 }
+footer {
+    color : rgb(231, 86, 1);
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#firstTable td:nth-child(2), th {
+    background-color: magenta;
+}
+#test1 {
+    text-align: center;
+    font-style: italic;
+    background-color: yellowgreen;
+    display: inline-block;
+    padding-bottom: 25px;
+}
+#rtlp {
+    color: #0000ff;
+    font-size: 190%;
+}
+
+/*It is 
+a comment
+*/
