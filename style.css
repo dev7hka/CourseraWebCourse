@@ -37,7 +37,9 @@ footer {
     color: #0000ff;
     font-size: 190%;
 }
-
+blockquote {
+    text-transform: capitalize;
+}
 /*It is 
 a comment
 */
