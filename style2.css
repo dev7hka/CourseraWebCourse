@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 50%;
+    overflow-y: scroll;
+}
+.outer {
+    color: white;
+    text-align: left;
+    background-color: grey; 
+    font-weight: bold;
+    padding: 10px;
+    font-size: 2em;
+}
+.outer footer {
+    font-weight: normal;
+    padding: 10px;
+    font-size: 0.5em;
+}
+.inner {
+    background-color: white;
+    overflow: auto;
+    padding: 15px;
+}
+.inner ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 20px;
+}
+.inner li {
+    border: 1px solid rgb(100, 185, 235);
+    background-color: rgb(100, 185, 235);
+    color: white;
+    width: 150px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 1.5em;
+}
+.innerText {
+    font-size: 1.5em;
+}
