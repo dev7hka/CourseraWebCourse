@@ -43,3 +43,37 @@ blockquote {
 /*It is 
 a comment
 */
+.test2 {
+    font-family: "Sofia", cursive;
+}
+
+.linkTest {
+    color: white; 
+    padding: 10px; 
+    background-color: red;
+}
+
+.linkTest:hover {
+    background-color: lightcoral;
+}
+
+#w3Table td,th,tr {
+    border-collapse: collapse;
+    border: solid 1px #ddd;
+    padding: 20px;
+    text-align: left;
+}
+#w3Table {
+    width: 50%;
+}
+#w3Table th {
+    background-color: #4caf50;
+    color: white;
+}
+#w3Table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#w3Table tr:hover{
+    background-color: yellowgreen;
+}
+ 
