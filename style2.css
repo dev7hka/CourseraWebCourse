@@ -2,8 +2,11 @@
     box-sizing: border-box;
 }
 body {
-    width: 50%;
     overflow-y: scroll;
+}
+.testPage {
+    width: 50%;
+    margin: auto;
 }
 .outer {
     color: white;
@@ -40,4 +43,11 @@ body {
 }
 .innerText {
     font-size: 1.5em;
+}
+.pseudoClassTest img {
+    display: none;
+    border: 2px dashed navy;
+}
+.pseudoClassTest:hover img{
+    display: inline;
 }
