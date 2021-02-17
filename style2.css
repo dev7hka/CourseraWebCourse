@@ -51,3 +51,16 @@ body {
 .pseudoClassTest:hover img{
     display: inline;
 }
+div.pseudoElementTest::after{
+    content: "$$ Nice feature $$";
+
+}
+div.pseudoElementTest li::marker{
+    color: red;
+}
+.pseudoElementTest a::selection{
+    border: 10px solid purple;
+}
+div.pseudoElementTest li:target{
+    border: 1px dashed pink;
+}   
